@@ -1,0 +1,560 @@
+body{
+    margin: 0;
+}
+.hero{
+    width: 80%;
+    margin: auto;
+    padding: 80px 24px;
+    display: flex;
+}
+.hero .hero-left{
+    width: 45%;
+    display: inline-block;
+    padding: 15px;
+}
+.hero .hero-left h1{
+    font-size: 70px;
+    margin: 0;
+}
+.hero .hero-left p{
+    font-size: 20px;
+    color: gray;
+}
+.bt1{
+    background-color: rgb(11, 2, 53);
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.bt2{
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.hero .hero-right{
+    display: inline-block;
+    width: 50%;
+    padding: 15px;
+}
+.hero .hero-right img{
+    width: 60%;
+    border-radius: 15px;
+}
+
+
+.contaner{
+    padding: 80px 24px;
+    margin: 80px;
+}
+
+
+
+.contaner .title{
+    text-align: center;
+    margin: 50px;
+}
+.contaner .title h2{
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.contaner .title p{
+    margin: 0;
+    font-size: 20px;
+    color: gray;
+}
+
+
+.contaner .card{
+    margin: 60px;
+}
+
+
+
+.contaner .card .C1{
+    background-color: rgb(159, 226, 226);
+    width: 30%;
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+    padding: 25px 0 ;
+    }
+.contaner .card .C1 .squer{
+background-color: blue;    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    overflow: auto;
+}
+.contaner .card .C1 .squer .s{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 13px;
+}
+.contaner .card .C1 h3{
+    font-size: 25px;
+}
+.contaner .card .C1 p{
+    color: gray;
+}
+
+
+
+.contaner .card .C2{
+    background-color: rgb(198, 237, 138);
+    width: 30%;
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 25px 0;
+}
+.contaner .card .C2 .circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin: auto;
+    overflow: auto;
+    background-color: green;
+}
+.contaner .card .C2 .circle .c{
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: 8px solid transparent;
+    margin: auto;
+    margin-top:13px ;
+}
+.contaner .card .C2 h3{
+    font-size: 25px;
+}
+.contaner .card .C2 p{
+    color: gray;
+}
+
+
+
+.contaner .card .C3{
+    background-color: rgb(194, 148, 237);
+    width: 30%;
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 39px 0;
+}
+.contaner .card .C3 .squer1{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin: auto;
+    background-color: purple;
+    overflow: auto;
+}
+.contaner .card .C3 .squer1 .s1{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 13px;
+}
+.contaner .card .C3 h3{
+    font-size: 25px;
+}
+.contaner .card .C3 p{
+    color: gray;
+}
+
+.contaner .more-bt{
+}
+.contaner .more-bt .image img{
+    width: 500px;
+    float: left;
+    margin-top: 80px;
+    border-radius: 15px;
+}
+.contaner .more-bt .content{
+    width: 50%;
+    float: right;
+    margin-top: 80px;
+    margin-left: 80;
+}
+.contaner .more-bt .content h3{
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.contaner .more-bt .content h4{
+    font-size: 20px;
+    margin: 0;
+}
+.contaner .more-bt .content .x1{
+    border-left:4px solid black ;
+    padding: 0 10;
+}
+.contaner .more-bt .content .x2{
+    border-left:4px solid black ;
+    padding: 0 10;
+}
+.contaner .more-bt .content .x3{
+    border-left:4px solid black ;
+    padding: 0 10;
+}
+.contaner .more-bt .content p{
+    color: gray;
+}
+
+
+
+.bg-color{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 800px;
+}
+.bg-color .cont .title {
+    text-align: center;
+    padding: 30px;
+}
+.bg-color .cont .title h2{
+    font-size: 30px;
+}
+.bg-color .cont .title p{
+    color: gray;
+    font-size: 20px;
+}
+.bg-color .cont .card {
+    margin-left: 165px;
+}
+.bg-color .cont .card .c1{
+    background-color: rgb(211, 221, 236);
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+    padding: 30px 20px 10px 10px;
+    border: 2px solid rgb(175, 202, 239);
+}
+.bg-color .cont .card .c1 .img img{
+    width: 15%;
+    border-radius: 50%;
+    float: left;
+    padding:0px 10px 0px 12;
+}
+.bg-color .cont .card span{
+    color: gray;
+}
+.bg-color .card h4{
+    margin: 0;
+    font-size: 18px;
+}
+.bg-color .cont .card p{
+    padding: 15px;
+    color: rgb(65, 63, 63);
+}
+
+
+
+
+
+
+
+
+
+
+
+.bg-color .cont .card .c2{
+    background-color: rgb(205, 241, 216);
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 15px;
+    padding: 30px 20px 10px 10px;
+    border: 2px solid rgb(142, 236, 170);
+
+}
+.bg-color .cont .card .c2 .img2 img{
+    width: 15%;
+    border-radius: 50%;
+    float: left;
+    padding:0px 10px 0px 12;
+}
+
+
+.bg-color .cont .card .c3{
+    background-color: rgb(221, 205, 245);
+    width: 25%;
+    float: left;
+    border-radius: 15px;
+    padding: 30px 20px 10px 10px;
+    border: 2px solid rgb(207, 181, 244);
+}
+.bg-color .cont .card .c3 .img3 img{
+    width: 15%;
+    border-radius: 50%;
+    float: left;
+    padding:0px 10px 0px 12;
+}
+.clear-fix{
+    clear: both;
+}
+.bg-color .statices{
+    width: 80%;
+    height: 150px;
+    background-color: rgb(210, 230, 246);
+    margin: 300px 160px;
+    border-radius: 20px;
+    border: 2px solid rgb(210, 230, 246);
+    padding-bottom: 25px;
+}
+.bg-color .statices h4 {
+    margin: 0;
+    font-size: 30px;
+}
+.bg-color .statices span{
+    color: gray;
+}
+
+
+.bg-color .statices .one{
+    float: left;
+    padding: 70px 100px;
+
+}
+.bg-color .statices .two{
+    float: left;
+    padding: 70px 100px;
+
+}
+.bg-color .statices .three{
+    float: left;
+    padding: 70px 100px;
+
+}
+.bg-color .statices .four{
+    float: left;
+    padding: 70px 100px;
+}
+
+
+.member-form .title3{
+    text-align: center;
+    padding: 20px;
+}
+.member-form .title3 h2{
+    font-size: 30px;
+}
+.member-form .title3 P{
+    font-size: 18px;
+    color: gray;
+}
+.member-form form{
+    width: 60%;
+    height: 830px;
+    background-color: whitesmoke;
+    margin-left: 285px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+.member-form form .form1{
+    float: left;
+    padding:30px 40px;
+    width: 40%;
+}
+.member-form form .form1 input{
+    width: 100%;
+    border-radius: 5px;
+    color: gray;
+}
+.member-form form input{
+    padding: 12px 20;
+}
+.member-form form .form2{
+    float: left;
+    padding:30px 40px;
+    width: 40%;
+}
+.member-form form .form2 input{
+    width: 100%;
+    border-radius: 5px;
+    color: gray;
+}
+
+.member-form form .form3{
+    padding:30px 40px;
+    width: 90%;
+}
+.member-form form .form3 input{
+    width: 100%;
+border-radius: 5px;
+color: gray;
+}
+.member-form form .form4{
+    padding: 30px 40px;
+    width: 90%s;
+}
+.member-form form .form4 input{
+    width: 100%;
+    border-radius: 5px;
+    color: gray;
+}
+.member-form form .form5{
+    padding:30px 40px;
+    width: 92%;
+}
+.member-form form .form5 select{
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.member-form form .form6{
+    padding:30px 40px;
+width: 90%;
+}
+.member-form form .form6 textarea{
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    padding: 10px 10px 20px;
+    font-size: 15px;
+    color: gray;
+}
+.member-form form button{
+    width: 90%;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    margin-left:40px;
+}
+.member-form form p{
+    text-align: center;
+    color: rgb(73, 70, 70);
+    font-size: 13px;
+}
+
+
+
+.footer {
+    background-color: #0d1425; 
+    color: white;
+    padding: 60px 20px 20px;
+}
+
+.footer-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-col {
+    flex: 1;
+    width: 250px;
+}
+
+.footer-brand {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-desc {
+    color: gray;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: gray;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color:white;
+}
+
+.contact-item {
+    margin-bottom: 15px;
+}
+
+.contact-item strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-item p {
+    color: gray;
+    margin: 0;
+}
+
+.footer-bottom {
+    width: 1200px;
+    margin: 40px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid #2d3446;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: gray;
+}
+
+.footer-legal a {
+    color: gray;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.footer-legal a:hover {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear-fix{
+    clear: both;
+}
